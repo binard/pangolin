@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPangolin.Api", "MyPangolin.Api\MyPangolin.Api.csproj", "{D246777E-F395-4D76-87D4-50963AF349FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPangolin.Api", "MyPangolin.Api\MyPangolin.Api.csproj", "{D246777E-F395-4D76-87D4-50963AF349FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A918253E-6C78-4DE1-9277-D3BA04750D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPangolin.Api.Test", "MyPangolin.Api.Test\MyPangolin.Api.Test.csproj", "{2AB94958-90E7-4A99-A734-798A0D76491C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{D246777E-F395-4D76-87D4-50963AF349FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D246777E-F395-4D76-87D4-50963AF349FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D246777E-F395-4D76-87D4-50963AF349FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB94958-90E7-4A99-A734-798A0D76491C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB94958-90E7-4A99-A734-798A0D76491C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB94958-90E7-4A99-A734-798A0D76491C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB94958-90E7-4A99-A734-798A0D76491C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AB94958-90E7-4A99-A734-798A0D76491C} = {A918253E-6C78-4DE1-9277-D3BA04750D8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CAB6DBA-1CC9-4FB7-82A9-F991123085FE}
