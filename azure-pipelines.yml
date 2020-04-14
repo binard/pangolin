@@ -27,11 +27,11 @@ steps:
   displayName: dotnet publish
   inputs:
     command: 'publish'
-    publishWebProjects: true
+    publishWebProjects: false
+    projects: '**/MyPangolin.Api.csproj'
 
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-
