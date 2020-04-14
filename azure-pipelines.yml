@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- deploy-prod
 
 pool:
   vmImage: 'ubuntu-16.04'
